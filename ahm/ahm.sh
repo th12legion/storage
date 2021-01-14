@@ -70,7 +70,7 @@ EOF
 mkdir -p $host
 mkdir -p $host/apache_log
 chown -R $USER:$USER $host
-chmod -R 755 $host
+chmod -R 775 $host
 
 touch $host/index.html
 echo "$html" > $host/index.html
